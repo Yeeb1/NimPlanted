@@ -1,6 +1,6 @@
 # NimPlanted
 
-A Python script to recover the AES key and decrypt agent traffic from the [NimPlant](https://github.com/chvancooten/NimPlant) C2 server by exploiting the limited keyspace of the XOR key used in pre-crypto operations. It basically leverages the limited keyspace of the XOR key used during the initial AES key exchange, making it feasible to brute-force and  AES key recovery.
+A Python script to recover the AES key and decrypt traffic between the [NimPlant](https://github.com/chvancooten/NimPlant) C2 server and the implants by exploiting the limited keyspace of the XOR key used in pre-crypto operations. It basically leverages the limited keyspace of the XOR key used during the initial AES key exchange, making it feasible to brute-force and  AES key recovery.
 
 <p align="center">
   <img src="/img/planted.jpg" width="300">
