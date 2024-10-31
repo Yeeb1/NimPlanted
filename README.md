@@ -10,7 +10,7 @@ A Python script to recover the AES key and decrypt traffic between the [NimPlant
 
 ### XOR Key Generation in NimPlant
 
-The NimPlant C2 server generates the XOR key using the function [get_xor_key](https://github.com/chvancooten/NimPlant/blob/fd17dfb5728562eb380a89dc61dca99026369d66/nimplant.py#L52).:
+The NimPlant C2 server generates the XOR key using the function [get_xor_key](https://github.com/chvancooten/NimPlant/blob/fd17dfb5728562eb380a89dc61dca99026369d66/nimplant.py#L52):
 
 ```python
 def get_xor_key(force_new=False):
