@@ -215,16 +215,3 @@ python3 NimPlanted.py decrypt -f data3.b64
 [+] Decompressed binary data saved to 'decompressed_output.bin'.
 ```
 
-#### Handling Printable Text That Is Not JSON
-
-If the decrypted content is a printable string but not valid JSON:
-
-
-```bash
-python3 NimPlanted.py decrypt -f data.b64
-
-[+] Using cached AES Key from 'aes_key.cache'.
-[+] Decrypted Content:
-{'guid': 'BvecEXJy', 'task': 'whoami'}
-```
-
