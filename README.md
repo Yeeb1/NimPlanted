@@ -3,7 +3,7 @@
 A Python script to recover the AES key and decrypt traffic between the [NimPlant](https://github.com/chvancooten/NimPlant) C2 server and the implants by exploiting the limited keyspace of the XOR key used in pre-crypto operations. It basically leverages the limited keyspace of the XOR key used during the initial AES key exchange, making it feasible to brute-force and  AES key recovery.
 
 <p align="center">
-  <img src="/img/planted.jpg" width="300">
+  <img src="https://github.com/user-attachments/assets/794f888c-6882-4839-9080-7e0ea306725e" width="300">
 </p>
 
 ## Background
